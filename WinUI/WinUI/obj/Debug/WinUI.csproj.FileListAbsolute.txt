@@ -1,0 +1,12 @@
+D:\GitHub开源项目\WinUI\WinUI\bin\Debug\WinUI.exe
+D:\GitHub开源项目\WinUI\WinUI\bin\Debug\WinUI.pdb
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.Properties.Resources.resources
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.csproj.GenerateResource.cache
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.csproj.CoreCompileInputs.cache
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.csproj.CopyComplete
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.exe
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.pdb
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.Main.resources
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.Form.Login.resources
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.资源文件.Doc.resources
+D:\GitHub开源项目\WinUI\WinUI\obj\Debug\WinUI.csprojAssemblyReference.cache
