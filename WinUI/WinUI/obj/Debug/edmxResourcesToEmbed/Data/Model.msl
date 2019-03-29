@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChengQModelStoreContainer" CdmEntityContainer="ChengQEntities">
+    <EntitySetMapping Name="UrlTable">
+      <EntityTypeMapping TypeName="ChengQModel.UrlTable">
+        <MappingFragment StoreEntitySet="UrlTable">
+          <ScalarProperty Name="createtime" ColumnName="createtime" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="url_code" ColumnName="url_code" />
+          <ScalarProperty Name="total_count" ColumnName="total_count" />
+          <ScalarProperty Name="use_count" ColumnName="use_count" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

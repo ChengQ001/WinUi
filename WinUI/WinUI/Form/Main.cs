@@ -29,5 +29,10 @@ namespace WinUI
         {
             MessageBoxEx.Show("ad");
         }
+
+        private void SkinButton2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
+        }
     }
 }

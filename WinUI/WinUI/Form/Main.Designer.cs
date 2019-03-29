@@ -36,6 +36,7 @@
             this.skinButton1 = new CCWin.SkinControl.SkinButton();
             this.skinSplitContainer1 = new CCWin.SkinControl.SkinSplitContainer();
             this.skinPanel1 = new CCWin.SkinControl.SkinPanel();
+            this.skinButton3 = new CCWin.SkinControl.SkinButton();
             this.skinButton2 = new CCWin.SkinControl.SkinButton();
             this.skinPanel2 = new CCWin.SkinControl.SkinPanel();
             this.skinDataGridView1 = new CCWin.SkinControl.SkinDataGridView();
@@ -46,7 +47,6 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.skinPanel3 = new CCWin.SkinControl.SkinPanel();
             this.LoginLabel = new CCWin.SkinControl.SkinLabel();
-            this.skinButton3 = new CCWin.SkinControl.SkinButton();
             ((System.ComponentModel.ISupportInitialize)(this.skinSplitContainer1)).BeginInit();
             this.skinSplitContainer1.Panel1.SuspendLayout();
             this.skinSplitContainer1.Panel2.SuspendLayout();
@@ -107,6 +107,21 @@
             this.skinPanel1.Size = new System.Drawing.Size(890, 30);
             this.skinPanel1.TabIndex = 0;
             // 
+            // skinButton3
+            // 
+            this.skinButton3.BackColor = System.Drawing.Color.Transparent;
+            this.skinButton3.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButton3.DownBack = null;
+            this.skinButton3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.skinButton3.Location = new System.Drawing.Point(47, 4);
+            this.skinButton3.MouseBack = null;
+            this.skinButton3.Name = "skinButton3";
+            this.skinButton3.NormlBack = null;
+            this.skinButton3.Size = new System.Drawing.Size(37, 24);
+            this.skinButton3.TabIndex = 0;
+            this.skinButton3.Text = "新增";
+            this.skinButton3.UseVisualStyleBackColor = false;
+            // 
             // skinButton2
             // 
             this.skinButton2.BackColor = System.Drawing.Color.Transparent;
@@ -121,6 +136,7 @@
             this.skinButton2.TabIndex = 0;
             this.skinButton2.Text = "新增";
             this.skinButton2.UseVisualStyleBackColor = false;
+            this.skinButton2.Click += new System.EventHandler(this.SkinButton2_Click);
             // 
             // skinPanel2
             // 
@@ -246,21 +262,6 @@
             this.LoginLabel.Size = new System.Drawing.Size(69, 17);
             this.LoginLabel.TabIndex = 0;
             this.LoginLabel.Text = "skinLabel1";
-            // 
-            // skinButton3
-            // 
-            this.skinButton3.BackColor = System.Drawing.Color.Transparent;
-            this.skinButton3.ControlState = CCWin.SkinClass.ControlState.Normal;
-            this.skinButton3.DownBack = null;
-            this.skinButton3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinButton3.Location = new System.Drawing.Point(47, 4);
-            this.skinButton3.MouseBack = null;
-            this.skinButton3.Name = "skinButton3";
-            this.skinButton3.NormlBack = null;
-            this.skinButton3.Size = new System.Drawing.Size(37, 24);
-            this.skinButton3.TabIndex = 0;
-            this.skinButton3.Text = "新增";
-            this.skinButton3.UseVisualStyleBackColor = false;
             // 
             // Main
             // 
